@@ -3,258 +3,125 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>(A K) CRICKET TRADER™</title>
+<title>( A K ) CRICKET TRADER™</title>
 
-<!-- Meta Pixel Code -->
+<script src="https://cdn.tailwindcss.com"></script>
+
+<!-- META PIXEL CODE -->
 <script>
-!function(f,b,e,v,n,t,s)
-{if(f.fbq)return;n=f.fbq=function(){
+!function(f,b,e,v,n,t,s){
+if(f.fbq)return;
+n=f.fbq=function(){
 n.callMethod?
-n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+n.callMethod.apply(n,arguments):n.queue.push(arguments)
+};
 if(!f._fbq)f._fbq=n;
-n.push=n;n.loaded=!0;n.version='2.0';
-n.queue=[];t=b.createElement(e);t.async=!0;
-t.src=v;s=b.getElementsByTagName(e)[0];
-s.parentNode.insertBefore(t,s)}(window, document,'script',
-'https://connect.facebook.net/en_US/fbevents.js');
-fbq('init', '1404664440783145');
-fbq('track', 'PageView');
+n.push=n;
+n.loaded=!0;
+n.version='2.0';
+n.queue=[];
+t=b.createElement(e);
+t.async=!0;
+t.src=v;
+s=b.getElementsByTagName(e)[0];
+s.parentNode.insertBefore(t,s)
+}(window, document,'script','https://connect.facebook.net/en_US/fbevents.js');
+fbq('init','933688235777642');
+fbq('track','PageView');
 </script>
+
 <noscript>
 <img height="1" width="1" style="display:none"
-src="https://www.facebook.com/tr?id=1404664440783145&ev=PageView&noscript=1"/>
+src="https://www.facebook.com/tr?id=933688235777642&ev=PageView&noscript=1"/>
 </noscript>
-<!-- End Meta Pixel Code -->
 
 <style>
-*{
-margin:0;
-padding:0;
-box-sizing:border-box;
-font-family:system-ui,-apple-system,"Segoe UI",sans-serif;
-}
-
-html,body{
-width:100%;
-height:100%;
-}
-
-body{
-background:#000 url("https://raw.githubusercontent.com/mrxsetup/COIN_TIPS/main/PAGEBACK.jpg") no-repeat center center;
-background-size:cover;
-color:#fff;
-}
-
-/* FRAME */
-.page-frame{
-min-height:100vh;
-border:3px solid #00f2ff;
-box-shadow:0 0 18px #00f2ff,inset 0 0 22px #00f2ff;
-display:flex;
-justify-content:center;
-align-items:flex-start;
-padding:16px 10px 60px;
-}
-
-.container{
-max-width:420px;
-width:100%;
-}
-
-/* PROFILE */
-.profile-box{
-text-align:center;
-margin-bottom:12px;
-}
-.profile-box img{
-width:110px;
-height:110px;
-border-radius:50%;
-border:3px solid #00f2ff;
-box-shadow:0 0 20px #00f2ff,0 0 45px #00f2ff;
-}
-
-.name-box{
-margin-top:8px;
-display:inline-block;
-padding:8px 22px;
-border:2px solid #00f2ff;
-background:rgba(0,0,0,.65);
-color:#00f2ff;
-font-size:1.4rem;
-font-weight:900;
-letter-spacing:1.5px;
-box-shadow:0 0 15px #00f2ff;
-}
-
-/* CARD */
-.card{
-margin-bottom:12px;
-padding:14px;
-border-radius:14px;
-background:rgba(0,0,0,.6);
-border:1px solid #00f2ff;
-box-shadow:0 0 12px #00f2ff;
-text-align:center;
-}
-
-.card h2{
-color:#12d8fa;
-margin-bottom:6px;
-font-size:1.15rem;
-}
-
-/* BUTTON */
-.btn,.join-below a{
-display:block;
-padding:14px;
-border-radius:40px;
-background:#00f2ff;
-color:#000;
-font-weight:900;
-text-decoration:none;
-box-shadow:0 0 25px #00f2ff;
-animation:pulse 1.5s infinite;
-margin-top:10px;
-}
-
-@keyframes pulse{
-50%{transform:scale(1.07)}
-}
-
-/* TIMER */
-.warning{
-margin-top:8px;
-padding:8px;
-border-radius:8px;
-background:#ff0000;
-color:#fff;
-font-weight:900;
-animation:vibrate .2s infinite;
-box-shadow:0 0 15px red;
-font-size:0.9rem;
-}
-
-@keyframes vibrate{
-0%{transform:translateX(0)}
-25%{transform:translateX(-2px)}
-50%{transform:translateX(2px)}
-75%{transform:translateX(-2px)}
-100%{transform:translateX(0)}
-}
-
-/* FEATURES */
-.features{
-list-style:none;
-margin-top:6px;
-font-size:0.95rem;
-}
-.features li::before{
-content:"⚡ ";
-color:#00f2ff;
-}
-
-/* TRUST */
-.trust{
-margin:10px 0 8px;
-font-weight:700;
-text-align:center;
-text-shadow:0 0 8px #12d8fa;
-font-size:0.95rem;
-}
-
-/* FIXED BOTTOM ADS BOX */
-.ads-fixed{
-position:fixed;
-bottom:8px;
-left:50%;
-transform:translateX(-50%);
-z-index:999;
-}
-.ads-fixed a{
-display:inline-block;
-padding:6px 14px;
-font-size:11px;
-border-radius:6px;
-border:1px solid #00f2ff;
-background:rgba(0,0,0,.75);
-color:#00f2ff;
-text-decoration:none;
-box-shadow:0 0 10px #00f2ff;
-}
-.ads-fixed a:hover{
-background:#00f2ff;
-color:#000;
-}
+.neon-box{display:inline-block;padding:12px 22px;border-radius:14px;border:2px solid #00faff;box-shadow:0 0 10px #00faff,0 0 25px #00faff;animation:neonGlow 2s infinite alternate}
+@keyframes neonGlow{from{box-shadow:0 0 10px #00faff}to{box-shadow:0 0 35px #00faff}}
+.neon-text{font-weight:900;font-size:1.8rem;color:#fff;text-shadow:0 0 6px #00faff,0 0 12px #00faff}
+.sub-text{font-weight:800;color:#ffb300;text-shadow:0 0 8px rgba(255,179,0,.8)}
+.counter-text{font-size:1.4rem;font-weight:900;color:#00ff6a;text-shadow:0 0 8px #00ff6a,0 0 16px #00ff6a}
+.mirror-wrap{position:relative;width:140px;height:140px;border-radius:50%;display:grid;place-items:center;background:radial-gradient(circle at top,#444,#000 70%);box-shadow:inset 0 8px 15px rgba(255,255,255,.2),inset 0 -10px 20px rgba(0,0,0,.9),0 0 25px rgba(0,255,255,.6)}
+.mirror-wrap::before{content:"";position:absolute;inset:-6px;border-radius:50%;background:conic-gradient(#00faff,#ff00ff,#00ff6a,#00faff);animation:spin 4s linear infinite;filter:blur(2px);z-index:-1}
+@keyframes spin{to{transform:rotate(360deg)}}
+.mirror-img{width:120px;height:120px;border-radius:50%;object-fit:cover}
+.neon-btn{background:#00faff;color:#ff003c;padding:14px 22px;border-radius:14px;font-weight:900;box-shadow:0 0 15px #00faff,0 0 35px #00faff;animation:pulse 1.8s infinite}
+@keyframes pulse{0%,100%{box-shadow:0 0 15px #00faff}50%{box-shadow:0 0 45px #00faff}}
+.overlay{position:absolute;inset:0;background:rgba(0,0,0,.45)}
+.ads-credit{font-size:10px;letter-spacing:1px;color:#00faff;text-shadow:0 0 5px #00faff,0 0 10px #00faff;opacity:.9}
 </style>
 </head>
 
-<body>
+<body class="bg-black text-white">
 
-<div class="page-frame">
-<div class="container">
+<div class="relative h-screen flex items-center justify-center bg-cover bg-center"
+style="background-image:url('https://github.com/mrxsetup/-AK-_CRICKET_TRADER/blob/main/CRICKETTRADER.jpg?raw=true');">
 
-<div class="profile-box">
-<img src="https://github.com/mrxsetup/-AK-_CRICKET_TRADER/blob/main/CRICKETTRADER.jpg?raw=true">
-<div class="name-box">(A K) CRICKET TRADER™</div>
+<div class="overlay"></div>
+
+<div class="relative z-10 text-center px-6 w-full flex flex-col items-center">
+
+  <div class="neon-box mt-4">
+    <div class="neon-text">( A K ) CRICKET TRADER™</div>
+  </div>
+
+  <div class="mt-2 counter-text">
+    <span id="subs">0</span> Subscribers
+  </div>
+
+  <div class="mt-1 sub-text">CRICKET ANALYST</div>
+
+  <div class="mt-5">
+    <div class="mirror-wrap">
+      <img src="https://github.com/mrxsetup/-AK-_CRICKET_TRADER/blob/main/CRICKETTRADER.jpg?raw=true" class="mirror-img">
+    </div>
+  </div>
+
+  <p class="mt-4 text-2xl font-extrabold">
+    Join Now <span id="countdown" class="text-yellow-400 text-4xl">30</span> Seconds
+  </p>
+
+  <p class="mt-3 text-base font-bold">
+    Join Karo Enjoy Daily Cricket Prediction 👇
+  </p>
+
+  <div class="mt-8">
+    <a href="https://t.me/+SfibdD1LchkyZWI9">
+      <button class="neon-btn">JOIN TELEGRAM NOW</button>
+    </a>
+  </div>
+
+  <p class="mt-4 text-sm font-extrabold uppercase">
+    💸 ( A K ) CRICKET TRADER™ <br> Cricket Market Ka King 🏏👑
+  </p>
+
+  <div class="mt-auto pt-4 pb-2 ads-credit">ADS_SETUP BY @MRXSETUP</div>
 </div>
-
-<div class="card">
-<h2>Cricket Match Predictions</h2>
-
-<a href="https://t.me/+Dg9iBdE30lFjZGRl" class="btn"
-onclick="fbq('track','Lead')">
-JOIN TELEGRAM
-</a>
-
-<div class="warning">
-FREE JOINING ENDS IN <span id="timer">20</span> SEC
-</div>
-</div>
-
-<div class="card">
-<h2>What You Get</h2>
-<ul class="features">
-<li>Live Match Analysis</li>
-<li>Pre-Match & In-Play Tips</li>
-<li>Risk Management</li>
-<li>Clean & Trusted Info</li>
-</ul>
-</div>
-
-<div class="trust">
-Trusted by thousands of cricket lovers across India
-</div>
-
-<div class="join-below">
-<a href="https://t.me/+Dg9iBdE30lFjZGRl"
-onclick="fbq('track','CompleteRegistration')">
-अभी टेलीग्राम जॉइन करें
-</a>
-</div>
-
-</div>
-</div>
-
-<!-- FIXED CLICKABLE ADS -->
-<div class="ads-fixed">
-<a href="https://t.me/CAPTAIN4433" target="_blank">
-ADS SETUP BY - @CAPTAIN4433
-</a>
 </div>
 
 <script>
-let time = 20;
-const timer = document.getElementById("timer");
+/* countdown */
+let t=30,el=document.getElementById("countdown");
+let i=setInterval(()=>{
+  el.textContent=t;
+  t--;
+  if(t<0){clearInterval(i);el.textContent="0";}
+},1000);
 
-const countdown = setInterval(() => {
-  if (time > 0) {
-    time--;
-    timer.innerText = time;
-  } else {
-    clearInterval(countdown);
+/* subscribers counter */
+let target = 34080;
+let current = 0;
+let speed = 20;
+let subEl = document.getElementById("subs");
+
+let counter = setInterval(()=>{
+  current += Math.ceil(target / 300);
+  if(current >= target){
+    current = target;
+    clearInterval(counter);
   }
-}, 1000);
+  subEl.textContent = current.toLocaleString();
+}, speed);
 </script>
 
 </body>
